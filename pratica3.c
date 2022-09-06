@@ -65,17 +65,6 @@ void BuscaBinaria(Escolas escolas[], int chave){
 			esq = meio+1;
 		}
 	}
-	/*
-		printf("\n\nID: %i", escolas[meio].id);
-		printf("\nEstado: %s", escolas[meio].estado);
-		printf("\nMunicipio: %s", escolas[meio].municipio);
-		printf("\nRede: %s", escolas[meio].rede);
-		printf("\nMedia Ciencias Naturais: %.7f", escolas[meio].mediaCieNat);
-		printf("\nMedia Ciencias Humanas: %.7f", escolas[meio].mediaCieHum);
-		printf("\nMedia Linguagem: %.7f", escolas[meio].mediaLin);
-		printf("\nMedia Matematica: %.7f", escolas[meio].mediaMat);
-		printf("\nMedia Redacao: %.7f", escolas[meio].mediaRed);
-	*/
 }
 
 void BuscaSequencial(Escolas escolas[], int chave){
@@ -83,17 +72,6 @@ void BuscaSequencial(Escolas escolas[], int chave){
 	while(chave != escolas[i].id && i<MAX){
 		i++;
 	}
-	/*
-		printf("\n\nID: %i", escolas[i].id);
-		printf("\nEstado: %s", escolas[i].estado);
-		printf("\nMunicipio: %s", escolas[i].municipio);
-		printf("\nRede: %s", escolas[i].rede);
-		printf("\nMedia Ciencias Naturais: %.7f", escolas[i].mediaCieNat);
-		printf("\nMedia Ciencias Humanas: %.7f", escolas[i].mediaCieHum);
-		printf("\nMedia Linguagem: %.7f", escolas[i].mediaLin);
-		printf("\nMedia Matematica: %.7f", escolas[i].mediaMat);
-		printf("\nMedia Redacao: %.7f", escolas[i].mediaRed);
-	*/
 }
 
 int main()
